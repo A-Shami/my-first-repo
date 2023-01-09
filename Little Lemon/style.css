@@ -1,0 +1,144 @@
+body {
+    background-color: #edefee;
+    font-family: serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-weight: bold;
+}
+
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #4e391b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    border-radius: 25px;
+    word-spacing: 15px;
+    font-size: large;
+}
+
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+a:link { 
+    text-decoration: none;
+    color: white;
+}
+
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+a:hover { 
+    text-decoration: underline;
+    color: rgb(252, 203, 24);
+}
+
+
+a:active { text-decoration: none; }
+
+nav li { display: inline-block;}
+
+
+section {
+    display: flex;
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+article {
+    flex: 1;
+}
+
+article img {
+    max-width: 100%;
+    height: 200px;
+    align-items: center;
+}
+
+main article {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.hero {
+    text-align: center;
+    background-color: rgb(114, 24, 23, 0.2);
+    background-size: cover;
+    border-radius: 10px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+.hero:hover {
+    border: solid rgba(41, 9, 8, 0.5) 2px;
+    cursor: pointer;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 200px;
+}
+
+#blog {
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+#blog:hover {
+    border: solid #26312d 2px;
+}
+
+.blog1 { background-color: rgb(73, 94, 87, 0.5);}
+.blog2 { background-color: orange;}
+.blog3 { background-color: red;}
+
+footer {
+    display: flex;
+    background-color: rgb(203, 203, 203);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+footer div{
+    flex: 1;
+}
+footer img {
+    margin-left: 20px;
+    margin-top: 10px;
+}
