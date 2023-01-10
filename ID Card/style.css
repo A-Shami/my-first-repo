@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: #2CB8E4;
+}
+
+input {
+    text-align: center;
+    margin: 2px;
+}
+
+button {
+    margin: 4px;
+}
+
+#idCard {
+    font-family: 'Poor Story', sans-serif;
+    text-align: left;
+    background-color: palevioletred;
+    border: 5px solid black;
+    border-radius: 40px;
+    height: 14em;
+    width: 25em;
+    display: inline-block;
+    margin-top: 70px;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+
+#postFullName {
+    text-align: center;
+    font-size: x-large;
+}
+
+p {
+    padding-top: 2%;
+    padding-left: 5%;
+}
